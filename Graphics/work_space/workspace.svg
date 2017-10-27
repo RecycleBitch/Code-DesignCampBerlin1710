@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 256 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="texture_wall_001" transform="matrix(6.1149e-17,-1,1,6.1149e-17,-0.0392248,31.9932)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_0011" transform="matrix(6.1149e-17,-1,1,6.1149e-17,-0.0392248,31.9932)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_0012" transform="matrix(6.1149e-17,-1,1,6.1149e-17,14.8717,32.0233)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_0013" transform="matrix(6.1149e-17,-1,1,6.1149e-17,30,32)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_0014" transform="matrix(6.1149e-17,-1,1,6.1149e-17,45,32)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_0015" transform="matrix(6.1149e-17,-1,1,6.1149e-17,60,32)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_0016" transform="matrix(6.1149e-17,-1,1,6.1149e-17,75,32)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_0017" transform="matrix(6.1149e-17,-1,1,6.1149e-17,90,32)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_0018" transform="matrix(6.1149e-17,-1,1,6.1149e-17,105,32)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_0019" transform="matrix(6.1149e-17,-1,1,6.1149e-17,105,32)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00110" transform="matrix(6.1149e-17,-1,1,6.1149e-17,119.911,32.03)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00111" transform="matrix(6.1149e-17,-1,1,6.1149e-17,135.039,32.0068)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00112" transform="matrix(6.1149e-17,-1,1,6.1149e-17,150.039,32.0068)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00113" transform="matrix(6.1149e-17,-1,1,6.1149e-17,165.039,32.0068)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00114" transform="matrix(6.1149e-17,-1,1,6.1149e-17,180.039,32.0068)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00115" transform="matrix(6.1149e-17,-1,1,6.1149e-17,195.039,32.0068)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00116" transform="matrix(6.1149e-17,-1,1,6.1149e-17,210,32)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00117" transform="matrix(-1,-1.21431e-16,1.21431e-16,-1,225.007,106.961)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00118" transform="matrix(-1,-1.21431e-16,1.21431e-16,-1,225.007,91.9608)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00119" transform="matrix(-1,-1.21431e-16,1.21431e-16,-1,225.007,76.9608)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00120" transform="matrix(-1,-1.21431e-16,1.21431e-16,-1,225,152)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00121" transform="matrix(-1,-1.21431e-16,1.21431e-16,-1,225,137)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00122" transform="matrix(-1,-1.21431e-16,1.21431e-16,-1,225,122)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00123" transform="matrix(-1,-1.21431e-16,1.21431e-16,-1,225.007,61.9608)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="texture_wall_00124" transform="matrix(-1,-1.21431e-16,1.21431e-16,-1,225,47)">
+        <use xlink:href="#_Image1" x="0" y="0" width="5px" height="15px"/>
+    </g>
+    <g id="Main_Character_vorne_stehend_240" transform="matrix(0.1,0,0,0.1,109,67)">
+        <use xlink:href="#_Image2" x="0" y="0" width="240px" height="240px"/>
+    </g>
+    <defs>
+        <image id="_Image1" width="5px" height="15px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAPCAYAAAAs9AWDAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABC0lEQVQYlSXM30rCUADA4d85HQW16coGmTqwmxhCKVZU4l29gdATL+jCiO5SECd5MvDC1nC5P66Lvgf4xPBxmKVpSpzEhL8hy+USOZ1N8QOfKI4QCIQQqO12S5qk2HWbYqWEyitU96KLyuWYzT3uzx/YhBtUo9WksF/E8zzenl9Z+2vUwvsgE9A4qaO/NEmSoPSnBsCqWkgp6d/2/0/TNBm9jNBa40Yu0m7auE8u48kYpRSDuwGid9PLasc14jihZJQo5gtI58whCAKEhKv+NeneDtG57GRtp80u2xFGIYuFRhqGQcs5pWKZBH5A9eAQZR1ZTN4n+N8+q9UKIQUSQM81P2ufcqVMFEX8AfPGcekonZH9AAAAAElFTkSuQmCC"/>
+        <image id="_Image2" width="240px" height="240px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwCAYAAAA+VemSAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEr0lEQVR4nO3dsY0kRRiA0Rm0OWBhgkcASGfiIdARBBYBEAnWJbEC4WGeRAB4uFgXxeLPYdTuVl/V1/OePeru6ZlP5fyqul7u09Oi+14X3XeU9xLz2eoHAF5OwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAEPaw+gF29vTP2OeuX41fcvBzs0cLp45IHvBeeCErMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhJnEmmDhxNZUo9/jiFsPfs7mdzeswBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAEHavky1Dkz+rJpNm7yW1cMJqSGDvrG07sQJDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUPYthMmL7TkFL57Mzo5Nfv9zb7vMybAtu3ECgxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGGrTyc8xSl8qyaT7o339zErMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhK2exBpywB5HU81+vt1PRbzD5xudGPzke2dZgSFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIWz1qWtDEy72sDq33X+PnU8xtAJDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUNYYhJr+GK7T059+H7sc5//fo7rnYRJLOAQAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGGrJ7FG7T2xNTrBxP+bPNm16pTKi0ks4DkEDGEChjABQ5iAIUzAECZgCBMwhAkYwiqTWKPmnna4aMLq+ubd0Oee3v90ivsOG5zY2nkPq9mswBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAEPaw+gEGTd0T6/Ll4OU+/DD1trzS6O82PmA1/YKfmhUYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCtp0wuTG219XT3IGtYe9NbL3Km9+W3PZ6Hf77b9uJFRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMK2nTC5sfck1iLfPM79+f56e1/vzyQWsJSAIUzAECZgCBMwhAkYwgQMYQKGMAFD2LYTJjeWTGKNTurMvu/sCavZZk9srXrPJrGApQQMYQKGMAFDmIAhTMAQJmAIEzCECRjCHlY/wFSTTwm8tz22Vhl+z06B/IgVGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYws41ibW5x+/Gtlb65eDneK3Hd2Pf4+0fJtmOZgWGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoawbU9duzF1pGf2XlejE1azzZ50Osv3eMapg8OXnH3BWazAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQtu2EyQtNHen59ouZV7tcfv567HO77yU1OrH1699z7/vnv3OvdznB/98KDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYWc7nXB0smbJqNPoZNKPg3s6zd7ba3QvqdkTagfIT1iNsgJDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUPY2Saxphrdg2nVZNIBp/AtccBeV3fDCgxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGHnGOU5zt7HBM7//e7t++ZZgSFMwBAmYAgTMIQJGMIEDGEChjABQ5iAAQAAAAAAAAAAAAAAAAAAAAAAWO0/gIiXQFxKZhoAAAAASUVORK5CYII="/>
+    </defs>
+</svg>
