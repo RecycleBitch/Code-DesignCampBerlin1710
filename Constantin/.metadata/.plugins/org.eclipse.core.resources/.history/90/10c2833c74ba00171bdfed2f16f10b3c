@@ -1,0 +1,12 @@
+package cc.game;
+
+import java.io.BufferedReader;
+
+public class Decision {
+
+	public void getAnswer(){
+		BufferedReader  reader = new BufferedReader(in);
+		
+		
+	}
+}

@@ -1,0 +1,14 @@
+package cc.game;
+
+import java.io.File;
+
+public class main {
+
+  public main{
+	  
+	  File Antwort = new File;
+	  
+  }
+	
+	
+}

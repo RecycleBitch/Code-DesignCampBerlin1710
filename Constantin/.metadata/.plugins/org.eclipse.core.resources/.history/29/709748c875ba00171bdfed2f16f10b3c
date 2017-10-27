@@ -1,0 +1,26 @@
+package cc.game;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.Reader;
+
+import javax.print.DocFlavor.INPUT_STREAM;
+
+public class Decision {
+	
+	public void getQuestion(){
+		
+		String question;
+		
+		question = "test a 10 66";
+		String[] result = question.split("\\s");
+		System.out.println(question);
+	}
+
+	public void getAnswer(){
+		
+		//BufferedReader  reader = new BufferedReader(in);
+	 
+		
+	}
+}
