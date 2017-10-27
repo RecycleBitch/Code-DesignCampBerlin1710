@@ -1,28 +1,64 @@
 package cc.game;
 
 public class move_aktion {
-	
-	public static int Laptopint;
-	public static int Telefonint;
-	
+	//int register
+	public static boolean Laptopboolean;
+	public static boolean Telephoneboolean;
+	public static boolean Chairboolean;
+	public static boolean Lampboolean ; 
+	public static boolean ßß;
+	/*
+	 * 
+	 */
+	//boolean set Methods
+	public static void setLaptopboolean(boolean laptopboolean) {
+		Laptopboolean = laptopboolean;
+		laptopboolean = true;	
+	}
+	public static void setLampboolean(boolean lampboolean) {
+		Lampboolean = lampboolean;
+		lampboolean = true;
+	}
+	public static void setChairboolean(boolean chairboolean) {
+		Chairboolean = chairboolean;
+		chairboolean = true;
+	}
+	public static void setTelephoneboolean(boolean telephoneboolean) {
+		Telephoneboolean = telephoneboolean;
+		telephoneboolean = true;
+	}
+/*
+ * 
+ */
+	// animation Methods
+	public void Lamp(){
+		if(Lampboolean == true){
+			//animation
+			Lampboolean =false;
+			
+		}
+	}
 	public void Laptop(){
-		if(Laptopint == 1){
+		if(Laptopboolean == true){
 			//animation
-			Laptopint --;
+			Laptopboolean = false;
+			
 			
 		}
-		
-			
-		
 	}
-	
-	public void Telefon(){
-		if(Telefonint== 1){
-			//animation
-			Telefonint -- ;
-		}
-	}
-	
-	
+    public void Chair(){
 
-}
+
+    	if(Chairboolean == true){
+    		//animation
+    		Chairboolean = false;
+    	}
+    }
+    public void Telephon(){
+    	if(Telephoneboolean == true){
+    		//animation
+    		Telephoneboolean = false;
+    	}
+    }
+    
+	}
