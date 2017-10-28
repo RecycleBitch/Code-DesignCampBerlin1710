@@ -122,7 +122,7 @@ public class move_aktion {
 				
 				
 				// call friend
-				call.friend;
+				call.Friend;
 				// choose answer
 				
 				

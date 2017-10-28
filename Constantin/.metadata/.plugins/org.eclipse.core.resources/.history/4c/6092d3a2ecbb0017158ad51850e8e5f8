@@ -11,7 +11,7 @@ public class move_aktion {
 	boolean possibility_c = true;
 	
 	
-	Calling call = new Calling();
+	Calling ca = new Calling();
 	
 	
 //	telephon boolean 
@@ -19,6 +19,16 @@ public class move_aktion {
 	boolean telephon_friend = true;
 	boolean telephon_politician = true;
 	boolean telephon_assistant = true;
+	
+	
+    public String   Chatbox_1;
+    public String   Chatbox_2;
+    public String   Chatbox_3;
+    public String   Chatbox_4;
+    public String   Chatbox_5;
+    public String  Possibility_1a;
+    public String Possibility_1b;
+    
 //	public static boolean ßß;//this is a unused boolean for one  new Interaktion
 	
 	public  int  maxint;
@@ -40,7 +50,6 @@ public class move_aktion {
 	
 	public  void setTime(int time) {
 		time = time;
-		 
 	 time  = 20; 
 	 
 	}
@@ -122,7 +131,7 @@ public class move_aktion {
 				
 				
 				// call friend
-				call.friend;
+				
 				// choose answer
 				
 				

@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Calling {
 	public String politik = "Ich hass dich!" ;
-	public String friend = "ich bin dein Freund";
-	public String assistent = "Was wollen sie von mir Boss";
+	public String Friend = "ich bin dein Freund";
+	public String Assistent = ""
 	int bad;
 	int good;
 	

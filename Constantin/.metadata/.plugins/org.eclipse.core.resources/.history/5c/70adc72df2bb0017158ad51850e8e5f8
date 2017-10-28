@@ -40,7 +40,6 @@ public class move_aktion {
 	
 	public  void setTime(int time) {
 		time = time;
-		 
 	 time  = 20; 
 	 
 	}
@@ -122,7 +121,7 @@ public class move_aktion {
 				
 				
 				// call friend
-				call.friend;
+				call.c;
 				// choose answer
 				
 				
