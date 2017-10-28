@@ -1,0 +1,20 @@
+package test.test;
+
+public class test{
+	
+	public test (String[] args ){
+		 
+		
+		  int  maxint;
+		int TURNING_POINT;
+		 int time;
+	 int Earthint ;
+		
+		
+	}
+	
+	
+	
+	
+}
+

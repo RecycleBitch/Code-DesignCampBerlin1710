@@ -1,0 +1,60 @@
+package cc.game;
+
+import java.util.Scanner;
+
+public class Calling {
+	
+	int schlecht;
+	int gut;
+	
+	move_aktion ma = new move_aktion();
+	public String Friend (String fr){
+		 
+//	System.out.print(ma.Earthint);
+		fr = "hallo ich bin dein Freund";
+		
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		
+		if(str == "Ich bin nicht dein Freund"){
+			ma.Earthint  = ma.Earthint -1 ;
+			return "Ich hass dich!";
+			 
+		}
+		System.out.println(fr);
+		return fr ;
+	}
+	public String Assistent (String at){
+		
+		at = "hallo was wollen sie von mir Boss";
+		
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		if(str == " können sie eine Studie für mich in auftrage geben"){
+			ma.Earthint = ma.Earthint +3;
+			return "klar würd sofort erledigt";
+		}
+		  
+		System.out.print(at);
+	
+		return at;
+		
+	}
+
+	public String Politic (String politik){
+		
+		politik  = "Welche Gesetzte wollt ihr haben ";
+		
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		if(str == "Könntest du ein Gesetz entwerfen zum Clima chang  " ){
+			ma.Earthint = ma.Earthint -2;			
+		}
+		
+		System.out.println(politik);
+		
+		
+		
+		return politik;
+	}
+}

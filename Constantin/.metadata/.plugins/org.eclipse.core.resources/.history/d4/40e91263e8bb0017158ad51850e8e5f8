@@ -1,0 +1,26 @@
+package cc.game;
+
+//import.cc.game.move_aktion;
+
+public class main {
+move_aktion ma = new move_aktion();
+Calling ca = new Calling();
+		
+  public main(String[] args){
+	  int Earth = ma.Earthint;
+	  String = 
+	 System.out.println(ca.politik);
+	  System.out.println(Earth);
+	  System.out.print("test");
+	  
+   
+	 
+	  // public save(){
+		   
+	   //}
+	  
+	  
+  }
+	
+	}
+

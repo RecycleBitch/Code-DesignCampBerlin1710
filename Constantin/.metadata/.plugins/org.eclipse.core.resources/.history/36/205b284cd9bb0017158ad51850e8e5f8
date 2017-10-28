@@ -1,0 +1,232 @@
+package cc.game;
+
+public class move_aktion {
+	//boolean register
+	boolean laptopboolean = true ;
+	boolean dokumentboolean = true;
+	boolean notizboolean = true ;
+	boolean lampboolean = true;
+	boolean possibility_a = true;
+	boolean possibility_b = true; 
+	boolean possibility_c = true;
+	
+	
+//	telephon boolean 
+	boolean telephoneboolean = true;
+	boolean telephon_friend = true;
+	boolean telephon_politician = true;
+	boolean telephon_assistant = true;
+	
+	
+    public String   Chatbox_1;
+    public String   Chatbox_2;
+    public String   Chatbox_3;
+    public String   Chatbox_4;
+    public String   Chatbox_5;
+    public String  Possibility_1a;
+    public String Possibility_1b;
+    
+//	public static boolean ßß;//this is a unused boolean for one  new Interaktion
+	
+	public  int  maxint;
+	public  int TURNING_POINT;
+	public  int time;
+	public int Earthint ;
+//	private int plusint;
+	//private int minusint;
+	/*
+	 * 
+	 *///register integer
+	 public static void setMaxint(int maxint) {
+		maxint = maxint;
+		maxint = 9;
+		
+		
+	}
+	 public  void setTime(int time) {
+		time = time;
+	 time  = 20;
+	 
+	}
+ public  void setTURNING_POINT(int tURNING_POINT) {
+	TURNING_POINT = tURNING_POINT;
+	tURNING_POINT = 6 ; 
+}
+	
+	//public Futureweight(int plusint, int minusint , int Earthint){
+ 		
+		
+		//return(this.Earthint,
+		//this.plusint ;
+		//this.minusint;
+	 public void Decision(){
+		 if ( Earthint >=  TURNING_POINT ){
+			 if( time == 0){
+				 
+			
+				 //Gooddream
+				 return;
+			 }
+			 
+		 } else if (Earthint <= TURNING_POINT){
+			  if(time == 0){
+				  //baddream
+			  }
+		 }  
+			 
+		 
+	 }
+	//}
+	/*
+	 * 
+	 */
+	//boolean set Methods
+	public void setLaptopboolean() {
+		if(laptopboolean){
+			if(possibility_a ){
+				possibility_a = false;
+				laptopboolean = false;
+			} else { 
+				if(possibility_b){
+					possibility_b =	false ;
+					laptopboolean = false ;
+				}
+				
+				
+			}
+		}
+	
+	}
+	public void setLampboolean() {
+		
+		if(lampboolean){
+			lampboolean = false;
+			Earthint = Earthint  +3 ;
+		}else{
+			lampboolean = true;
+		}
+	}
+	/*public  void setDokumentboolean() {
+		if(dokumentboolean ){
+			if(possibility_a){
+				
+				possibility_a = false ;
+				 
+				dokumentboolean = false;
+				
+			}
+		}
+		
+	}*/
+	public void setTelephoneboolean() {
+		
+		if(telephoneboolean){
+			
+			if(telephon_friend){
+				
+				// call friend
+				 
+				// choose answer
+				
+				
+				}
+				telephon_friend = false;
+				telephoneboolean = false;
+         			}
+				if(telephon_assistant ){
+		                      
+					
+					// call assistent
+					Earthint = Earthint +1;
+					telephon_assistant = false ;
+					telephoneboolean = false;
+				} else {
+					if(telephon_politician){
+						telephon_politician = false;
+						telephoneboolean = false;
+					}
+				}
+			}
+
+		} /*else */{
+			telephoneboolean = true;
+		}
+	}
+/*
+ * 
+ */
+	// animation Methods
+	public void Lamp(){
+		if(lampboolean == true){
+			//animation
+			lampboolean =false;
+			
+		}
+	}
+	public void laptop(){
+		if(laptopboolean == true){
+			//animation
+			laptopboolean = false;
+			
+			
+		}
+	}
+    public void dokument(){
+
+
+    	if(dokumentboolean == true){
+    		//animation
+    		dokumentboolean = false;
+    	}
+    }
+    public void Telephon(){
+    	if(telephoneboolean == true){
+    		//animation
+    		telephoneboolean = false;
+    	}
+    	
+    }
+    
+    
+    public void setEvent(String evt){
+
+    	
+    	if(evt == "lamp"){
+    		setLampboolean();
+    	}
+    	
+    	
+    }
+
+    public void setPhonevent(String e){
+    	if(e == "telephon"){
+    		setTelephoneboolean();
+    		
+    	}
+    }
+
+    
+public void setLaptopevent(String event){
+	
+	if(event == "Laptop"){
+		setLaptopboolean();
+	}
+}
+ public void setDokumentrevent(String cevent){
+	 if(cevent == "dokument"){
+		 
+	 }
+ }
+
+ }
+
+ 
+     public String called(String s){
+    	 return s ;
+     }
+ /* public getAnswer(Keycode k){
+	  if()
+	  
+ 
+}
+*/

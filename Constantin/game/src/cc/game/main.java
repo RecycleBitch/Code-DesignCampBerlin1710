@@ -1,36 +1,22 @@
 package cc.game;
 
-import java.awt.event.KeyEvent;
-
-import cc.input.Keyiput;
+//import.cc.game.move_aktion;
 
 public class main {
-
-
-		private double sX = 350, sY = 300; 
+move_aktion ma = new move_aktion();
+Calling ca = new Calling();
 		
-		
-		
-		public Keys(){
-			
-			addKeylistener(new Keyinput());
-			
-		}
   public main(String[] args){
-	
-
-	 
-	  // public save(){
-		   
-	   //}
+	  int Earth = ma.Earthint;
+	  String politik  = ca.politik; 
+	 System.out.println(politik);
+	  System.out.println(Earth);
+	  System.out.print("test");
+	  
+	  
 	  
 	  
   }
 	
-	private void tick(){
-		if(Keyiput.isKeyDowm(KeyEvent.VK_SPACE)){
-			sY = 2;
-			 
-		}
 	}
-}
+

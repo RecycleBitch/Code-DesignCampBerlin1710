@@ -1,0 +1,21 @@
+package test.test;
+
+public class test {
+	int testint = 1;
+	public test(){
+		switch (testint) {
+		case 1:
+			System.out.println("ich bin eine 1");
+			testint ++ ; 
+		case 2 : 
+			System.out.println("ich bin eine 2 ");
+			
+			break;
+
+		default: System.out.println("ich bin ein test");
+			break;
+			
+		}
+	}
+
+}

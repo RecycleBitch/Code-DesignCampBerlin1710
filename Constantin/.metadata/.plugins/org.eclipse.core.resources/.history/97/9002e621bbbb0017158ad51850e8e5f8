@@ -1,0 +1,46 @@
+package test.test;
+
+import cc.game.move_aktion;
+
+public class test{
+	
+	public test (String[] args ){
+		 
+		
+		  public int  maxint;
+		public int TURNING_POINT;
+		 int time;
+	 int Earthint ;
+	 
+	 
+	 
+	 public static void setMaxint(int maxint) {
+			move_aktion.maxint = maxint;
+			maxint = 9;
+			
+			
+		}
+		 public static void setTime(int time) {
+			move_aktion.time = time;
+		 time  = 20;
+		 
+		}
+	 public static void setTURNING_POINT(int tURNING_POINT) {
+		TURNING_POINT = tURNING_POINT;
+		tURNING_POINT = 6 ; 
+	}
+		public void setChatbox_1(String chatbox_1) {
+			
+			Chatbox_1 = chatbox_1;
+			chatbox_1 = "welche Internetseite nehme ich ";
+			
+		}
+		
+		
+	}
+	
+	
+	
+	
+}
+

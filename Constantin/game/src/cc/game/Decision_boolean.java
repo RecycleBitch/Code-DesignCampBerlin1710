@@ -1,0 +1,9 @@
+package cc.game;
+
+public class Decision_boolean {
+	
+		
+	
+	
+}
+

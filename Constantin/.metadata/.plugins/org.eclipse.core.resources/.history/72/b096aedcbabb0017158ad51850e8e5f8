@@ -1,0 +1,128 @@
+package cc.game;
+
+public class move_aktion {
+	//int register
+	public static boolean Laptopboolean;
+	public static boolean Telephoneboolean;
+	public static boolean Chairboolean;
+	public static boolean Lampboolean ; 
+    public String   Chatbox_1;
+    public String   Chatbox_2;
+    public String   Chatbox_3;
+    public String   Chatbox_4;
+    public String   Chatbox_5;
+    public String  Possibility_1a;
+    public String Possibility_1b;
+    
+//	public static boolean ßß;//this is a unused boolean for one  new Interaktion
+	
+	public static int  maxint;
+	public static int TURNING_POINT;
+	public static int time;
+	public int Earthint ;
+//	private int plusint;
+	//private int minusint;
+	/*
+	 * 
+	 *///register integer
+	 public static void setMaxint(int maxint) {
+		move_aktion.maxint = maxint;
+		maxint = 9;
+		
+		
+	}
+	 public static void setTime(int time) {
+		move_aktion.time = time;
+	 time  = 20;
+	 
+	}
+ public static void setTURNING_POINT(int tURNING_POINT) {
+	TURNING_POINT = tURNING_POINT;
+	tURNING_POINT = 6 ; 
+}
+	public void setChatbox_1(String chatbox_1) {
+		
+		Chatbox_1 = chatbox_1;
+		chatbox_1 = "welche Internetseite nehme ich ";
+		
+	}
+	//public Futureweight(int plusint, int minusint , int Earthint){
+ 		
+		
+		//return(this.Earthint,
+		//this.plusint ;
+		//this.minusint;
+	 public void Decision(){
+		 if ( Earthint >=  TURNING_POINT ){
+			 if( time == 0){
+				 
+			
+				 //Gooddream
+				 return;
+			 }
+			 
+		 } else if (Earthint <= TURNING_POINT){
+			  if(time == 0){
+				  //baddream
+			  }
+		 }  
+			 
+		 
+	 }
+	//}
+	/*
+	 * 
+	 */
+	//boolean set Methods
+	public static void setLaptopboolean(boolean laptopboolean) {
+		Laptopboolean = laptopboolean;
+		laptopboolean = true;	
+	}
+	public static void setLampboolean(boolean lampboolean) {
+		Lampboolean = lampboolean;
+		lampboolean = true;
+	}
+	public static void setChairboolean(boolean chairboolean) {
+		Chairboolean = chairboolean;
+		chairboolean = true;
+	}
+	public static void setTelephoneboolean(boolean telephoneboolean) {
+		Telephoneboolean = telephoneboolean;
+		telephoneboolean = true;
+	}
+/*
+ * 
+ */
+	// animation Methods
+	public void Lamp(){
+		if(Lampboolean == true){
+			//animation
+			Lampboolean =false;
+			
+		}
+	}
+	public void Laptop(){
+		if(Laptopboolean == true){
+			//animation
+			Laptopboolean = false;
+			
+			
+		}
+	}
+    public void Chair(){
+
+
+    	if(Chairboolean == true){
+    		//animation
+    		Chairboolean = false;
+    	}
+    }
+    public void Telephon(){
+    	if(Telephoneboolean == true){
+    		//animation
+    		Telephoneboolean = false;
+    	}
+    	
+    }
+    
+	}

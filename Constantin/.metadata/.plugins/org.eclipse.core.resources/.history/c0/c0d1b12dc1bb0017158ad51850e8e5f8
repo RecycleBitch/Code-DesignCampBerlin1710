@@ -1,0 +1,171 @@
+package cc.game;
+
+public class move_aktion {
+	//boolean register
+	boolean laptopboolean = true ;
+	boolean chairboolean = true;
+	boolean lampboolean = true;
+	boolean c = true;
+	boolean b = true; 
+	boolean a = true;
+	
+//	telephon boolean 
+	boolean telephoneboolean = true;
+	boolean telephon_friend = true;
+	boolean telephon_politician = true;
+	boolean telephon_assistant = true;
+	
+	
+	
+    public String   Chatbox_1;
+    public String   Chatbox_2;
+    public String   Chatbox_3;
+    public String   Chatbox_4;
+    public String   Chatbox_5;
+    public String  Possibility_1a;
+    public String Possibility_1b;
+    
+//	public static boolean ßß;//this is a unused boolean for one  new Interaktion
+	
+	public  int  maxint;
+	public  int TURNING_POINT;
+	public  int time;
+	public int Earthint ;
+//	private int plusint;
+	//private int minusint;
+	/*
+	 * 
+	 *///register integer
+	 public static void setMaxint(int maxint) {
+		maxint = maxint;
+		maxint = 9;
+		
+		
+	}
+	 public  void setTime(int time) {
+		time = time;
+	 time  = 20;
+	 
+	}
+ public  void setTURNING_POINT(int tURNING_POINT) {
+	TURNING_POINT = tURNING_POINT;
+	tURNING_POINT = 6 ; 
+}
+	
+	//public Futureweight(int plusint, int minusint , int Earthint){
+ 		
+		
+		//return(this.Earthint,
+		//this.plusint ;
+		//this.minusint;
+	 public void Decision(){
+		 if ( Earthint >=  TURNING_POINT ){
+			 if( time == 0){
+				 
+			
+				 //Gooddream
+				 return;
+			 }
+			 
+		 } else if (Earthint <= TURNING_POINT){
+			  if(time == 0){
+				  //baddream
+			  }
+		 }  
+			 
+		 
+	 }
+	//}
+	/*
+	 * 
+	 */
+	//boolean set Methods
+	void setLaptopboolean() {
+		
+		laptopboolean = true;	
+	}
+	public void setLampboolean() {
+		
+		if(lampboolean){
+			lampboolean = false;
+		}else{
+			lampboolean = true;
+		}
+	}
+	public  void setChairboolean() {
+		
+		chairboolean = true;
+	}
+	public void setTelephoneboolean() {
+		
+		if(telephoneboolean){
+			if(telephon_friend){
+				
+				telephon_friend = false;
+				telephoneboolean = false;
+			}else {
+				if(telephon_assistant ){
+					
+					telephon_assistant = false ;
+				}
+			}
+			
+		} else{
+			telephoneboolean = true;
+		}
+	}
+/*
+ * 
+ */
+	// animation Methods
+	public void Lamp(){
+		if(lampboolean == true){
+			//animation
+			lampboolean =false;
+			
+		}
+	}
+	public void Laptop(){
+		if(laptopboolean == true){
+			//animation
+			laptopboolean = false;
+			
+			
+		}
+	}
+    public void Chair(){
+
+
+    	if(chairboolean == true){
+    		//animation
+    		chairboolean = false;
+    	}
+    }
+    public void Telephon(){
+    	if(telephoneboolean == true){
+    		//animation
+    		telephoneboolean = false;
+    	}
+    	
+    }
+    
+    
+    public void setEvent(String evt){
+
+    	
+    	if(evt == "lamp"){
+    		setLampboolean();
+    	}
+    	
+    	
+    }
+
+    public void setPhonevent(String e){
+    	if(e == "telephon"){
+    		setTelephoneboolean();
+    		
+    	}
+    }
+}
+
+

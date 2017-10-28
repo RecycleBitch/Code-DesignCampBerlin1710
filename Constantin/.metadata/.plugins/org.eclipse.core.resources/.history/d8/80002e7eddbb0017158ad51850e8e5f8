@@ -1,0 +1,38 @@
+package cc.game;
+
+import java.util.Scanner;
+
+public class Call {
+	
+	
+	
+	
+	public String Friend (String fr){
+		 
+		fr = "hallo ich bin dein Freund";
+		
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		
+		if(str == "Ich bin nicht dein Freund")
+			return "Ich hass dich!";
+		System.out.println(fr);
+		return fr ;
+	}
+	public String Assistent (String at){
+		
+		at = "hallo was wollen sie von mir Boss";
+		System.out.print(at);
+	
+		return at;
+		
+	}
+
+	public String Politic (String politik){
+		
+		politik  = "Welche Gesetzte wollt ihr haben ";
+		System.out.println(politik);
+		
+		return politik;
+	}
+}

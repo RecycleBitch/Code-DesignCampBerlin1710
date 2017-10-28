@@ -1,0 +1,9 @@
+package cc.game;
+
+public enum CallePerson {
+FRIEND;
+ASSISTENT;
+
+	
+	
+}

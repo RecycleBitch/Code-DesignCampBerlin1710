@@ -1,0 +1,24 @@
+package cc.game;
+
+
+
+public class main {
+move_aktion ma = new move_aktion();
+Calling ca = new Calling();
+		
+  public main(String[] args){
+	 System.out.println(ca.Assistent(at));
+	  
+	  
+	  
+   
+	 
+	  // public save(){
+		   
+	   //}
+	  
+	  
+  }
+	
+	}
+
