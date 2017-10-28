@@ -24,7 +24,7 @@ public class move_aktion {
 	public  int  maxint;
 	public  int TURNING_POINT;
 	public  int time;
-//	score des Spielers
+//	 score des Spielers
 	public int Earthint = 0 ;
 	
 	/*
@@ -37,7 +37,7 @@ public class move_aktion {
 		
 	}
 	
-//	time
+	
 	public  void setTime(int time) {
 		time = time;
 		 

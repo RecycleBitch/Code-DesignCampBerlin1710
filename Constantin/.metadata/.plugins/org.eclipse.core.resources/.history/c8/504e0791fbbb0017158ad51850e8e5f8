@@ -24,9 +24,9 @@ public class move_aktion {
 	public  int  maxint;
 	public  int TURNING_POINT;
 	public  int time;
-//	score des Spielers
 	public int Earthint = 0 ;
-	
+//	private int plusint;
+	//private int minusint;
 	/*
 	 * 
 	 *///register integer
@@ -37,14 +37,13 @@ public class move_aktion {
 		
 	}
 	
-//	time
+	
 	public  void setTime(int time) {
 		time = time;
 		 
 	 time  = 20; 
 	 
 	}
-	// wenn abgewogen werden muss guter oder schlechter traum
  public  void setTURNING_POINT(int tURNING_POINT) {
 	TURNING_POINT = tURNING_POINT;
 	tURNING_POINT = 6 ; 
