@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class Calling {
 	public String politik = "Ich hass dich!" ;
-	int schlecht;
-	int gut;
+	public String friend = "ich bin dein Freund";
+	public String assistent = "Was wollen sie von mir Boss";
+	int bad;
+	int good;
 	
 	move_aktion ma = new move_aktion();
 	public String Friend (String fr){

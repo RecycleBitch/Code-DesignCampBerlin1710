@@ -11,7 +11,7 @@ public class move_aktion {
 	boolean possibility_c = true;
 	
 	
-	Calling ca = new Calling();
+	Calling call = new Calling();
 	
 	
 //	telephon boolean 
@@ -19,24 +19,14 @@ public class move_aktion {
 	boolean telephon_friend = true;
 	boolean telephon_politician = true;
 	boolean telephon_assistant = true;
-	
-	
-    public String   Chatbox_1;
-    public String   Chatbox_2;
-    public String   Chatbox_3;
-    public String   Chatbox_4;
-    public String   Chatbox_5;
-    public String  Possibility_1a;
-    public String Possibility_1b;
-    
-//	public static boolean ßß;//this is a unused boolean for one  new Interaktion
+
 	
 	public  int  maxint;
 	public  int TURNING_POINT;
 	public  int time;
+//	score des Spielers
 	public int Earthint = 0 ;
-//	private int plusint;
-	//private int minusint;
+	
 	/*
 	 * 
 	 *///register integer
@@ -47,12 +37,14 @@ public class move_aktion {
 		
 	}
 	
-	
+//	time
 	public  void setTime(int time) {
 		time = time;
+		 
 	 time  = 20; 
 	 
 	}
+	// wenn abgewogen werden muss guter oder schlechter traum
  public  void setTURNING_POINT(int tURNING_POINT) {
 	TURNING_POINT = tURNING_POINT;
 	tURNING_POINT = 6 ; 
@@ -86,13 +78,16 @@ public class move_aktion {
 	 * 
 	 */
 	//boolean set Methods
+	 // wenn Internet suche dann aufrufen
 	public void setLaptopboolean() {
 		if(laptopboolean){
 			if(possibility_a ){
+				Earthint = Earthint + 2;
 				possibility_a = false;
 				laptopboolean = false;
 			} else { 
 				if(possibility_b){
+					Earthint = Earthint +1;
 					possibility_b =	false ;
 					laptopboolean = false ;
 				}
@@ -102,6 +97,7 @@ public class move_aktion {
 		}
 	
 	}
+	//wenn Lampe an/aus schalten dann aufrufen
 	public void setLampboolean() {
 		
 		if(lampboolean){
@@ -123,31 +119,34 @@ public class move_aktion {
 		}
 		
 	}*/
+	// wenn Anruf dann aufrufen
 	public void setTelephoneboolean() {
 		
 		if(telephoneboolean){
 			
 			if(telephon_friend){
 				
+				Earthint = Earthint -1 ;
 				
 				// call friend
-				
+			System.out.println(	call.friend);
 				// choose answer
-				
-				
+			
 				}
+			      
 				telephon_friend = false;
 				telephoneboolean = false;
          			}
 				if(telephon_assistant ){
-		                      
+		                      Earthint = Earthint + 1;
 					
 					// call assistent
-					Earthint = Earthint +1;
+					//Earthint = Earthint +1;
 					telephon_assistant = false ;
 					telephoneboolean = false;
 				} else {
 					if(telephon_politician){
+						Earthint = Earthint +2;
 						telephon_politician = false;
 						telephoneboolean = false;
 					}
@@ -162,6 +161,7 @@ public class move_aktion {
  * 
  */
 	// animation Methods
+    // wenn 
 	public void Lamp(){
 		if(lampboolean == true){
 			//animation
