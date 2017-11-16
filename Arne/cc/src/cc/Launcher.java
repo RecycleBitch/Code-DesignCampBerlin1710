@@ -51,7 +51,7 @@ public class Launcher  extends JFrame implements ActionListener {
 		
 		JFrame fenster = new JFrame("Game");
 		fenster.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		fenster.setSize(1200,720);
+		fenster.setSize(1280,760);
 		fenster.setVisible(true);
 		fenster.add(new gui());
 		
