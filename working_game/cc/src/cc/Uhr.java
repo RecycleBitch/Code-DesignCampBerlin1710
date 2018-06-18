@@ -1,6 +1,7 @@
 package cc;
 
 import java.awt.Image;
+import java.io.File;
 
 import javax.swing.ImageIcon;
 
@@ -13,16 +14,32 @@ public class Uhr {
 	Image[] clock = new Image[12];
 	
 	boolean setPic() {
+		
+		File curDir = new File(".");
+        getAllFiles(curDir);
 	
 		for(int i = 0; i < 12; i++) {
 		
-			clock[i] = new ImageIcon((getClass().getResource("Uhr\\"+ i + ".png"))).getImage();
+			clock[i] = new ImageIcon(getClass().getResource("../Uhr/"+ i + ".png")).getImage();
 		}
 		
 		startTime = System.currentTimeMillis();
 		
 		return true;
 	}
+	
+	private static void getAllFiles(File curDir) {
+
+        File[] filesList = curDir.listFiles();
+        for(File f : filesList){
+            if(f.isDirectory())
+                System.out.println(f.getName());
+            if(f.isFile()){
+                System.out.println(f.getName());
+            }
+        }
+
+    }
 	
 	Image getPic() {
 

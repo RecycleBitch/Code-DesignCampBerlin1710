@@ -19,6 +19,7 @@ public class gui extends JPanel implements ActionListener {
 		
 		// Items tisch = new Items(250);
 		// END
+	String pathPrefix = "../";
 		
 		Graphics2D f2;
 		String info = "";
@@ -98,25 +99,25 @@ public class gui extends JPanel implements ActionListener {
 		
 		for(int i = 1; i <= 4; i++) {
 			
-			img_player_move[i - 1] = new ImageIcon(getClass().getResource(i + ".gif")).getImage();
-			img_player[i - 1] = new ImageIcon(getClass().getResource(i + ".png")).getImage();
+			img_player_move[i - 1] = new ImageIcon(getClass().getResource(pathPrefix + i + ".gif")).getImage();
+			img_player[i - 1] = new ImageIcon(getClass().getResource(pathPrefix + i + ".png")).getImage();
 		}
-		ImageIcon s = new ImageIcon((getClass().getResource("images.png")));
-		ImageIcon l = new ImageIcon((getClass().getResource("log.png")));
-		ImageIcon b1 = new ImageIcon((getClass().getResource("bad1.png")));
-		ImageIcon b2 = new ImageIcon((getClass().getResource("bad2.png")));
-		ImageIcon b3 = new ImageIcon((getClass().getResource("bad3.png")));
-		ImageIcon g1 = new ImageIcon((getClass().getResource("god1.png")));
-		ImageIcon g2 = new ImageIcon((getClass().getResource("god2.png")));
-		ImageIcon g3 = new ImageIcon((getClass().getResource("god3.png")));
-		ImageIcon sp = new ImageIcon((getClass().getResource("speech.png")));
-		ImageIcon lm = new ImageIcon((getClass().getResource("lamp.png")));
-		ImageIcon d = new ImageIcon((getClass().getResource("doc.png")));
-		ImageIcon c = new ImageIcon((getClass().getResource("web1.png")));
-		ImageIcon w = new ImageIcon((getClass().getResource("web2.png")));
-		ImageIcon eb = new ImageIcon((getClass().getResource("e.gif")));
-		ImageIcon spa = new ImageIcon((getClass().getResource("space.gif")));
-		ImageIcon ib = new ImageIcon((getClass().getResource("i.gif")));
+		ImageIcon s = new ImageIcon((getClass().getResource(pathPrefix + "images.png")));
+		ImageIcon l = new ImageIcon((getClass().getResource(pathPrefix + "log.png")));
+		ImageIcon b1 = new ImageIcon((getClass().getResource(pathPrefix + "bad1.png")));
+		ImageIcon b2 = new ImageIcon((getClass().getResource(pathPrefix + "bad2.png")));
+		ImageIcon b3 = new ImageIcon((getClass().getResource(pathPrefix + "bad3.png")));
+		ImageIcon g1 = new ImageIcon((getClass().getResource(pathPrefix + "god1.png")));
+		ImageIcon g2 = new ImageIcon((getClass().getResource(pathPrefix + "god2.png")));
+		ImageIcon g3 = new ImageIcon((getClass().getResource(pathPrefix + "god3.png")));
+		ImageIcon sp = new ImageIcon((getClass().getResource(pathPrefix + "speech.png")));
+		ImageIcon lm = new ImageIcon((getClass().getResource(pathPrefix + "lamp.png")));
+		ImageIcon d = new ImageIcon((getClass().getResource(pathPrefix + "doc.png")));
+		ImageIcon c = new ImageIcon((getClass().getResource(pathPrefix + "web1.png")));
+		ImageIcon w = new ImageIcon((getClass().getResource(pathPrefix + "web2.png")));
+		ImageIcon eb = new ImageIcon((getClass().getResource(pathPrefix + "e.gif")));
+		ImageIcon spa = new ImageIcon((getClass().getResource(pathPrefix + "space.gif")));
+		ImageIcon ib = new ImageIcon((getClass().getResource(pathPrefix + "i.gif")));
 		img2 = s.getImage();
 		imgl = l.getImage();
 		bad1 = b1.getImage();
@@ -159,6 +160,7 @@ public class gui extends JPanel implements ActionListener {
 	}
 	
 	public void paint(Graphics g){
+		
 		
 		super.paint(g);
 		f2 =(Graphics2D)g;
@@ -204,7 +206,8 @@ public class gui extends JPanel implements ActionListener {
 					f2.drawImage(imgl, left-20, figur_y-200, null);
 					// sound bug format not supported
 					if(loof == 0){
-					Sound.playSound("Lampe_onOrOff.wav");
+						// System.out.println(getClass().getResource(pathPrefix + "Lampe_onOrOff.wav").toString());
+					Sound.playSound(pathPrefix + "Lampe_onOrOff.wav");
 					loof ++;
 					}
 					f2.drawImage(e, 10, 680, null);
@@ -215,7 +218,7 @@ public class gui extends JPanel implements ActionListener {
 						Lamp = true;
 						Wertung.setLamp(Lamp);
 						if(loff == 0){
-							Sound.playSound("lampe_off.wav");
+							Sound.playSound(pathPrefix + "lampe_off.wav");
 							loff ++;
 							}
 					}else{
@@ -237,7 +240,7 @@ public class gui extends JPanel implements ActionListener {
 					f2.drawString("Forever alone.", left-10, figur_y-100);
 					f2.drawImage(e, 10, 680, null);
 					if(hq == 0){
-						Sound.playSound("Houseplant_question.wav");
+						Sound.playSound(pathPrefix + "Houseplant_question.wav");
 						hq ++;
 						}
 					}
@@ -252,7 +255,7 @@ public class gui extends JPanel implements ActionListener {
 						pf = true;
 						Wertung.setPlant(pf);
 						if(hy == 0){
-							Sound.playSound("Houseplant_yes.wav");
+							Sound.playSound(pathPrefix + "Houseplant_yes.wav");
 							hy ++;
 							}
 					}
@@ -261,7 +264,7 @@ public class gui extends JPanel implements ActionListener {
 						pf = false;
 						Wertung.setPlant(pf);
 						if(hno == 0){
-							Sound.playSound("Houseplant_no.wav");
+							Sound.playSound(pathPrefix + "Houseplant_no.wav");
 							hno ++;
 							}
 					}
@@ -280,7 +283,7 @@ public class gui extends JPanel implements ActionListener {
 					f2.drawString("you desire.", left+30, figur_y-40);
 					f2.drawImage(e, 10, 680, null);
 					if(ld == 0){
-						Sound.playSound("Laptop_desire.wav");
+						Sound.playSound(pathPrefix + "Laptop_desire.wav");
 						ld ++;
 						}
 					}
@@ -359,10 +362,10 @@ public class gui extends JPanel implements ActionListener {
 					
 					if(Tel == 3 && t){
 						f2.drawImage(imgl, left-20, figur_y-100, null);
-						f2.drawString("1 Hey Günther, what are our", left - 12,figur_y - 80);
+						f2.drawString("1 Hey Gï¿½nther, what are our", left - 12,figur_y - 80);
 						f2.drawString("     measurements of carbon", left - 12  , figur_y - 65);
 						f2.drawString("     content in the air?", left - 12 , figur_y - 50);
-						f2.drawString("2 Hey Günther,    ", left- 12 , figur_y - 35);
+						f2.drawString("2 Hey Gï¿½nther,    ", left- 12 , figur_y - 35);
 						f2.drawString("     what is your opinion on climate change?  ", left - 12 , figur_y - 20);
 						tele = tele += "B";
 					}
@@ -371,7 +374,7 @@ public class gui extends JPanel implements ActionListener {
 					if(Tel == 4 && t){
 						if(turn){
 							f2.drawImage(imgl, left-20, figur_y-100, null);
-							f2.drawString("2  Hey Minister Börcek,", left - 12,figur_y - 80);
+							f2.drawString("2  Hey Minister Bï¿½rcek,", left - 12,figur_y - 80);
 							f2.drawString("what do you know", left - 12  , figur_y - 65);
 							f2.drawString("and think about ", left - 12 , figur_y - 50);
 							f2.drawString("climate change?", left- 12 , figur_y - 35);
@@ -380,7 +383,7 @@ public class gui extends JPanel implements ActionListener {
 							
 						}else{
 							f2.drawImage(imgl, left-20, figur_y-100, null);
-							f2.drawString("1  Hey Minister Börcek,", left - 12,figur_y - 80);
+							f2.drawString("1  Hey Minister Bï¿½rcek,", left - 12,figur_y - 80);
 							f2.drawString(" have you established the", left - 12  , figur_y - 65);
 							f2.drawString("law that we discussed to", left - 12 , figur_y - 50);
 							f2.drawString("force companies to reduce", left- 12 , figur_y - 35);
@@ -394,7 +397,7 @@ public class gui extends JPanel implements ActionListener {
 					}
 					if(Tel == 6 && t){
 						f2.drawImage(imgl, left-20,figur_y-100,null);
-						f2.drawString("Minister Börcek:", left - 12,figur_y - 80);
+						f2.drawString("Minister Bï¿½rcek:", left - 12,figur_y - 80);
 						f2.drawString("Climate change is a major ", left - 12,figur_y - 65);
 						f2.drawString("issue at present. I believe ", left - 12,figur_y - 50);
 						f2.drawString("it is very important to implement ", left - 12,figur_y - 35);
@@ -407,7 +410,7 @@ public class gui extends JPanel implements ActionListener {
 					}
 					if(Tel == 5 && t){
 						f2.drawImage(imgl, left-20,figur_y-100,null);
-						f2.drawString("Minister Börcek:", left - 12,figur_y - 80);
+						f2.drawString("Minister Bï¿½rcek:", left - 12,figur_y - 80);
 						f2.drawString("Yes, of course.", left - 12,figur_y - 65);
 						f2.drawString("The law was implemented", left - 12,figur_y - 50);
 						f2.drawString("3 days ago.", left - 12,figur_y - 35);
