@@ -179,6 +179,11 @@ public class gui extends JPanel implements ActionListener {
    f2.drawImage(space, 10, 680, null);
   }
   if (z == 2) {
+	   f2.drawImage(bad3, 0, 0, null);
+	   f2.drawString("2030", 50, 70);
+	   f2.drawImage(space, 10, 680, null);
+	  }
+  if (z == 3) {
    f2.drawImage(imgs, left + 70, figur_y - 150, null);
    f2.drawString("Now", 50, 70);
    f2.drawImage(space, 10, 680, null);
@@ -235,7 +240,7 @@ public class gui extends JPanel implements ActionListener {
    if ((left <= 700) && (left >= 660) && (figur_y <= 310) && (figur_y >= 300)) {
     //Plant
 
-    System.out.println("Plant");
+    // System.out.println("Plant");
 
     if (plant == 0 && p) {
      f2.setFont(general);
