@@ -14,9 +14,6 @@ public class Uhr {
 	Image[] clock = new Image[12];
 	
 	boolean setPic() {
-		
-		File curDir = new File(".");
-        getAllFiles(curDir);
 	
 		for(int i = 0; i < 12; i++) {
 		
@@ -27,19 +24,6 @@ public class Uhr {
 		
 		return true;
 	}
-	
-	private static void getAllFiles(File curDir) {
-
-        File[] filesList = curDir.listFiles();
-        for(File f : filesList){
-            if(f.isDirectory())
-                System.out.println(f.getName());
-            if(f.isFile()){
-                System.out.println(f.getName());
-            }
-        }
-
-    }
 	
 	Image getPic() {
 
